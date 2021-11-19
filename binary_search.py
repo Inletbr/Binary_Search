@@ -10,13 +10,13 @@ high = n
 while low <= high:
     mid = (low + high) // 2
     print(mid)
-    what = input("more, less, equal? \n")
+    what = input("more, less, equals? \n")
     if what == "more":
         low = mid
         mid = (low + high) // 2
     elif what == "less":
         high = mid
         mid = high // 2
-    elif what == "equal":
-        print("Succes", mid)
+    elif what == "equals":
+        print("Success", mid)
         break
